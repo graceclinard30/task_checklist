@@ -34,6 +34,7 @@ def index():
         )
 
         db.session.add(new_task)
+        # db.session.query(if[priority]=="High", )
         db.session.commit()
     tasks = Todo.query.all()
     return render_template("index.html", tasks=tasks)
