@@ -1,0 +1,22 @@
+body {
+    margin: 50;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+    background-color:burlywood;
+}
+table {
+    background-color: beige;
+    font-family:'Courier New', Courier, monospace;
+}
+tr, td {
+    border: 1pt solid black;
+}
+header {
+    font:italic;
+    color: black;
+}
+th  {
+    font-size:25px;
+    border: 2pt solid black;
+}
